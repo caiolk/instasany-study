@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Epilogue } from 'next/font/google';
 import "./globals.css";
+import { Header } from "@/components/Header";
 
 const epilogue = Epilogue({ 
   subsets: ['latin'],
@@ -21,7 +22,9 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={`${epilogue.className} antialiased`}
+        cz-shortcut-listen="true"
       >
+        <Header/>
         {children}
       </body>
     </html>

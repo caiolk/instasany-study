@@ -8,7 +8,12 @@ export default {
   ],
   theme: {
     extend: {
-
+      colors: {
+        'green-primary': '#2A4B46'
+      },
+      maxWidth:{
+        grid: '77.5 rem'
+      }
     },
   },
   plugins: [],
