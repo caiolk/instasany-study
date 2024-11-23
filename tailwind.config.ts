@@ -9,10 +9,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        'green-primary': '#2A4B46'
+        'green-primary': '#1D3531',
+        'green-actived': '#5D8A83'
       },
       maxWidth:{
-        grid: '77.5 rem'
+        grid: '77.5rem'
       }
     },
   },
