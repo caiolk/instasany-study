@@ -48,7 +48,7 @@ export function SectionHero(){
                     <Image 
                         src={IconMockup}
                         alt="Icon Mockup"
-                        className="relative rotate-12 top-[1.1rem] left-[3.3rem]"
+                        className="relative rotate-12 top-[1.1rem] right-[3.3rem]"
                     />
                 </div>
             </GridContainer>
