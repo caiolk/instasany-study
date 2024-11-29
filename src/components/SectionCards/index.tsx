@@ -91,7 +91,7 @@ export function SectionCards() {
     }, [])
     return(
         <>
-            <section className="container w-full pb-20" ref={sectionRef}> 
+            <section className="w-full pb-20" ref={sectionRef}> 
                 <Image
                     src={Mockup}
                     alt="Image Mockup Main"

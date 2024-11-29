@@ -43,7 +43,7 @@ export function SectionHero(){
     }, []);
 
     return (
-        <section className=" container relative w-full h-section-hero bg-hero bg-no-repeat bg-top bg-green-primary border-t border-t-green-border pt-16">
+        <section className="relative w-full h-section-hero bg-hero bg-no-repeat bg-top bg-green-primary border-t border-t-green-border pt-16">
             <GridContainer className="flex flex-col items-center">
                 <div className="w-full max-w-text-hero text-center opacity-0" ref={textHeroRef}>
                     <h3 className="text-md sm:text-lg md:text-text-lg lg:text-xl xl:text-xl text-green-actived mb-4">Novo curso focado em instagram</h3>
