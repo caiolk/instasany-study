@@ -17,7 +17,7 @@ const arrayMenyu = [
 export function Header() {
     const activedStyle = 'bg-green-actived text-opacity-100 rounded-full';
     return (
-        <header className='relative w-full bg-green-primary flex items-center'>
+        <header className='container relative w-full bg-green-primary flex items-center'>
             <GridContainer className='flex items-center justify-between'>
                 <Image src={LogoImg} alt='logo'/>
                 <div className='flex items-center gap-20'>
