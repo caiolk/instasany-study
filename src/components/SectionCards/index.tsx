@@ -95,12 +95,12 @@ export function SectionCards() {
                 <Image
                     src={Mockup}
                     alt="Image Mockup Main"
-                    className="sticky z-10 top-56 mx-auto -mt-[32rem] mb-16 opacity-0"
+                    className="sticky z-10 top-56 mx-auto -mt-[32rem] mb-16 opacity-0 "
                     ref={mockupRef}
                 />
-                <h2 className="text-center text-7xl font-semibold text-black mb-56 opacity-0" ref={titleRef}>
+                <h2 className="text-center text-sm sm:text-lg md:text-3xl/normal lg:text-5xl/normal xl:text-7xl/normal font-semibold text-black mb-56 opacity-0" ref={titleRef}>
                     Faça 
-                    <span className="text-green-title-cards">você</span> 
+                    <span className="px-3 text-green-title-cards">você</span> 
                     mesmo de casa
                 </h2>
                 <div className="relative w-full max-w-area-cards h-area-cards mx-auto">
